@@ -1,0 +1,37 @@
+{
+  "response": {
+    "code": 1,
+    "data": [
+      {
+        "id": 1,
+        "fecha_hora": "20-12-2019 20:00",
+        "recogida": "20-12-2019 21:00",
+        "productos": [
+          {
+            "id": 1,
+            "nombre": "Hamburguesas",
+            "imagen": "img/categorias/hamburguesas",
+            "miniatura": "ruta a la miniatura",
+            "descripcion": "asdfasdf",
+            "disponible": true,
+            "idCategoria": 5,
+            "precio": 45.4,
+            "ingredientes": [
+              {
+                "id": 2,
+                "nombre": "pan",
+                "alergenos": [
+                  {
+                    "id": 4,
+                    "nombre": "gluten",
+                    "icono": "ruta al icono"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

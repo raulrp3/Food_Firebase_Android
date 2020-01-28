@@ -1,0 +1,17 @@
+{
+  "response": {
+    "code": 1,
+    "data": [
+      {
+        "id": 1,
+        "nombre":"Hamburguesas",
+        "imagen":"img/categorias/hamburguesas"
+      },
+      {
+        "id": 2,
+        "nombre":"Pizzas",
+        "imagen":"img/categorias/pizza"
+      }
+    ]
+  }
+}

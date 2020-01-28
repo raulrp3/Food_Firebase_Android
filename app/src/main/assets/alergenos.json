@@ -1,0 +1,12 @@
+{
+  "response": {
+    "code": 1,
+    "data": [
+      {
+        "id": 1,
+        "nombre":"Marisco",
+        "icono":"ruta al icono"
+      }
+    ]
+  }
+}

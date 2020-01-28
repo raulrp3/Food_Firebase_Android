@@ -1,0 +1,37 @@
+{
+  "response": {
+    "code": 1,
+    "data": [
+      {
+        "id": 1,
+        "comentarios": "Comentarios del cliente",
+        "nombre_pedido": "nombre",
+        "productos": [
+          {
+            "id": 1,
+            "nombre": "Hamburguesas",
+            "imagen": "img/categorias/hamburguesas",
+            "miniatura": "ruta a la miniatura",
+            "descripcion": "asdfasdf",
+            "disponible": true,
+            "idCategoria": 5,
+            "precio": 45.4,
+            "ingredientes": [
+              {
+                "id": 2,
+                "nombre": "pan",
+                "alergenos": [
+                  {
+                    "id": 4,
+                    "nombre": "gluten",
+                    "icono": "ruta al icono"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

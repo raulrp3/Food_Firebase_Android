@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PerfilUsuarioActivity">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:paddingHorizontal="20dp"
+          android:paddingVertical="20dp">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorAccent"
+              android:text="Email" />
+
+          <EditText
+              android:id="@+id/emailUsuario"
+              android:layout_marginVertical="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorEditText"
+              android:enabled="false"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorAccent"
+              android:text="Nombre" />
+
+          <EditText
+              android:id="@+id/nombreUsuario"
+              android:layout_marginVertical="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorEditText"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorAccent"
+              android:text="Direccion" />
+
+          <EditText
+              android:id="@+id/direccionUsuario"
+              android:layout_marginVertical="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorEditText"/>
+
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorAccent"
+              android:text="Telefono" />
+
+          <EditText
+              android:id="@+id/telefonoUsuario"
+              android:layout_marginVertical="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorEditText"/>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="center"
+          android:gravity="center"
+          >
+
+
+          <Button
+              android:id="@+id/btnGuardarCambios"
+              android:layout_marginTop="20dp"
+              android:layout_width="170dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/fondo1_botones"
+              android:textColor="@color/colorText"
+              android:text="Guardar cambios"
+              android:layout_marginEnd="10dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              />
+
+          <Button
+              android:id="@+id/btnCambiarContraseña"
+              android:layout_marginTop="20dp"
+              android:layout_width="170dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/fondo1_botones"
+              android:textColor="@color/colorText"
+              android:text="Cambiar contraseña"
+              android:layout_toRightOf="@+id/btnGuardarCambios"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_marginStart="10dp"/>
+
+      </RelativeLayout>
+
+      </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/pedidoRealizado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡PEDIDO REALIZADO CON ÉXITO!"
+        android:textSize="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/pedidoFavorito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/pedidoRealizado"
+        android:text="¿Desea guardar este pedido como favorito?"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/nombrePedidoFavorito"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/pedidoFavorito"
+        android:layout_marginTop="10dp"
+        android:hint="Nombre del pedido"/>
+
+    <Button
+        android:id="@+id/guardarPedidoFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/pedidoFavorito"
+        android:layout_marginTop="10dp"
+        android:text="Guardar"/>
+
+</RelativeLayout>

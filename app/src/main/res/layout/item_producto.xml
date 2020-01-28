@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp"
+    android:id="@+id/card"
+    >
+
+    <LinearLayout
+        android:id="@+id/lvfilaProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imagenProducto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nombreProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/precioProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/nombreProducto"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/btnAñadir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AÑADIR"
+                android:padding="5dp"
+                android:layout_below="@id/nombreProducto"
+                android:layout_toEndOf="@id/precioProducto"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/btn"
+                android:textColor="@color/txtBtn"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

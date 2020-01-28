@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Email"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Contraseña"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:inputType="textPassword"/>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="INICIAR SESIÓN"
+            android:textSize="20dp"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="¡REGÍSTRATE!"
+            android:textSize="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnLogin"
+            android:layout_marginTop="10dp"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btnGoogle"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnLogin"
+            android:layout_toEndOf="@id/btnRegister"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

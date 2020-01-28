@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorSecondary">#3d3d3d</color>
+    <color name="colorAccent">#DF3333</color>
+
+    <color name="btn">#423D3D</color>
+    <color name="txtBtn">#ffffff</color>
+
+    <color name="btnDeshabilitado">#A5A5A5</color>
+    <color name="txtBtnDeshabilitado">#F33030</color>
+
+    <color name="colorText">#ffffff</color>
+    <color name="colorEditText">#000</color>
+
+    <color name="btnCerrarSesion">#282828</color>
+
+
+
+
+</resources>

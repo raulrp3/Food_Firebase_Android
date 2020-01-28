@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/img_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/nombre_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/descripcion_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes"
+        android:textColor="@android:color/black"/>
+
+    <ListView
+        android:layout_marginTop="5dp"
+        android:id="@+id/ingrediente_producto"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alérgenos"
+        android:textColor="@android:color/black"/>
+
+    <ListView
+        android:layout_marginTop="5dp"
+        android:id="@+id/alergeno_producto"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+</LinearLayout>
